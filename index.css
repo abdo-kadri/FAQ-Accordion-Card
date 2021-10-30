@@ -53,12 +53,18 @@ body{
 @media (min-width: 768px)  {
     
     .box{
-        width: 1000px; ;
+        width: 1000px;
         display: flex;
         MIN-HEIGHT: 300PX;
+        top: 50%;
+        position: absolute;
+        TOP: 50%;
+        left: 50%;
+        transform: translate(-50%, -76%);
     }
     .faq{
         width: 100%;
+        margin: 20px;
     }
     .boxImg{
         width: 100%;
@@ -66,8 +72,8 @@ body{
         position: relative;
     }
     .bigImg{
-        WIDTH: 338PX;
-        HEIGHT: 245px;
+        WIDTH: 440PX;
+        HEIGHT: 322px;
         POSITION: absolute;
         TOP: 50%;
         transform: translate(-16%, -50%);
@@ -77,7 +83,7 @@ body{
         HEIGHT: 135PX;
         POSITION: absolute;
         TOP: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -27%);
         POSITION: absolute;
     }
 }
@@ -88,4 +94,7 @@ i{
     display: flex;
     justify-content: space-between;
     width: 470px;
+}
+.fas{
+    font-size: 18px;
 }
